@@ -1,5 +1,6 @@
 import './style.css'
 
+// Add some content to the HTML
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
   <h4>Open the DevTools console to see the output</h4>
@@ -52,7 +53,7 @@ const stmt = await conn.prepare(
 );
 
 // ... and run the query with materialized results
-const res = await stmt.query(234);
+const res = await stmt.query(234); // Returns 1001 entries ranging from v = 234 to 1,234
 console.log("Statement result (Table):", res);
 console.log('Statement result copy (JSON):', 
     // Bug fix explained at: https://github.com/GoogleChromeLabs/jsbi/issues/30
