@@ -1,5 +1,7 @@
 # duckdb-wasm example: vite-browser
 
+![Side-by-side screenshot of browser running the example and the corresponding output in the DevTools window](vite_example.PNG)
+
 Barebones example of querying with duckdb-wasm using Vite and just the browser (no front-end framework). No dataset file is loaded; the data is created using the generate_series function.
 
 ## How to run
