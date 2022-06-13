@@ -11,7 +11,7 @@ Barebones example of querying with duckdb-wasm using Vite and just the browser (
 
 ## Steps taken
 
-Everything runs from the main.js file which roughly does the following:
+Everything runs from the [main.js](main.js) script which roughly does the following:
 
 1. Import: duckdb-wasm and all its bundle alternatives
 2. Pick bundle: Choose based on the browser in-use
